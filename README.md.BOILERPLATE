@@ -1,0 +1,20 @@
+# MODULE_TITLE
+
+[![npm (scoped)](https://img.shields.io/npm/v/@told/MODULE_NAME.svg)](https://www.npmjs.com/package/@told/MODULE_NAME)
+[![Build Status](https://travis-ci.org/toldsoftware/MODULE_NAME.svg?branch=master)](https://travis-ci.org/toldsoftware/MODULE_NAME)
+[![Coverage Status](https://coveralls.io/repos/github/toldsoftware/MODULE_NAME/badge.svg)](https://coveralls.io/github/toldsoftware/MODULE_NAME)
+
+MODULE_DESCRIPTION
+
+## Import Options
+
+    import * as Blob from 'MODULE_NAME';
+    import { SOMETHING } from 'MODULE_NAME';
+
+## Note: Visual Studio Code
+
+Most Config Files are hidden in Visual Studio Code because they are pure boilerplate. 
+
+Visibility settings are in:
+
+    .vscode/settings.json
