@@ -4,17 +4,31 @@
 [![Build Status](https://travis-ci.org/toldsoftware/npm-boilerplate.svg?branch=master)](https://travis-ci.org/toldsoftware/npm-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/toldsoftware/npm-boilerplate/badge.svg)](https://coveralls.io/github/toldsoftware/npm-boilerplate)
 
-MODULE_DESCRIPTION
+## Instructions
 
-## Import Options
+- Create Empty Github Project
+- Copy this repo into directory (except .git)
+- Replace README and package.json with BOILERPLATE versions (You might want to make a copy of this file if needed.)
+- Find/Replace MODULE_NAME and MODULE_TITLE
+- Commit and Push Project to Github
+- Create *Coveralls* Project for repo: https://coveralls.io
+    - Add Repo
+    - Sync repos (At bottom)
+    - Find and Add Repo
+    - Copy Token: 
+        - Settings > Repo Token > [Copy]
+- Create *Travis* Project for repo: https://travis-ci.org
+    - Add Repo
+    - Sync Account
+    - Set Environment Variable for *Coveralls*
+        - Settings > Environment Variables
+            - repo_token
+            - TOKEN_FROM_COVERALLS
+            - Click "Add"
+- Push Any Change to Git
+    - Verify Test Runs
+    - Verify Coveralls Received Report
+        - May have to Restart Build (Since Token was just set)
+- Publish to *NPM*
+    - npm publish --access-public
 
-    import * as Blob from 'npm-boilerplate';
-    import { SOMETHING } from 'npm-boilerplate';
-
-## Note: Visual Studio Code
-
-Most Config Files are hidden in Visual Studio Code because they are pure boilerplate. 
-
-Visibility settings are in:
-
-    .vscode/settings.json
