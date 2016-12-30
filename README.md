@@ -4,6 +4,17 @@
 [![Build Status](https://travis-ci.org/toldsoftware/npm-boilerplate.svg?branch=master)](https://travis-ci.org/toldsoftware/npm-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/toldsoftware/npm-boilerplate/badge.svg)](https://coveralls.io/github/toldsoftware/npm-boilerplate)
 
+A minimilistic typescript boilerplate for creating typescript code modules that can be imported with es6 imports.
+
+## Features
+
+- typescript only (no generated code)
+- jasmine test framework
+- karma test runner
+- Npm Github Badge
+- Travis CI w/ Github Badge
+- Coveralls Code Coverage w/ Github Badge
+
 ## Setup
 
 Steps to setup a new project using this boilerplate.
