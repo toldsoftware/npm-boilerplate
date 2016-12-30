@@ -36,7 +36,7 @@ Note: You might want to make a copy of this file if needed
 - Publish to *NPM*
     - npm publish --access public
 - Github: Verify Icons have updated
-    - Sometimes this can take a while
+    - Sometimes this can take a while or the images get cached by the browser.
 
 ## Use
 
