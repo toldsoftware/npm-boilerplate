@@ -2,7 +2,7 @@
 
 ## 14:00-14:30
 
-- Create Project
+- Setup Project
 
 # Tasks
 

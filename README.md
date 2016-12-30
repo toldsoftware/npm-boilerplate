@@ -26,6 +26,9 @@ Note: You might want to make a copy of this file if needed
 - Rename Notes/HoursNAME.md and start tracking time
 - Replace README and package.json with BOILERPLATE versions
 - Find/Replace MODULE_NAME and MODULE_TITLE
+- Setup NPM
+    - npm install
+    - npm test (Verify everything is working)
 - Commit and Push Project to Github
 - Create *Coveralls* Project for repo: https://coveralls.io
     - Add Repo
@@ -62,3 +65,11 @@ Note: You might want to make a copy of this file if needed
 
 - Update in Other Projects
     - npm update
+
+## Note: Visual Studio Code
+
+Most Config Files for this project are hidden in Visual Studio Code because they are pure boilerplate. 
+
+Visibility settings are in:
+
+    .vscode/settings.json
