@@ -26,9 +26,11 @@
             - TOKEN_FROM_COVERALLS
             - Click "Add"
 - Push Any Change to Git
-    - Verify Test Runs
-    - Verify Coveralls Received Report
+    - Travis: Verify Test Runs
+    - Coveralls: Verify Coveralls Received Report
         - May have to Restart Build (Since Token was just set)
 - Publish to *NPM*
     - npm publish --access-public
+- Github: Verify Icons have updated
+    - Sometimes this can take a while
 
