@@ -21,6 +21,6 @@ module.exports = function (config) {
       }
     },
 
-    browsers: ["Firefox"],
+    browsers: ["Chrome"],
   });
 };
