@@ -1,6 +1,6 @@
 {
   "name": "@told/npm-boilerplate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Npm Boilerplate",
   "main": "index.ts",
   "scripts": {
