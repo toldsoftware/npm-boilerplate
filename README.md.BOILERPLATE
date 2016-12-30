@@ -6,14 +6,18 @@
 
 MODULE_DESCRIPTION
 
-## Import Options
+## Usage
+
+- npm install @told/MODULE_NAME
+
+- In Typescript File:
 
     import * as Blob from 'MODULE_NAME';
     import { SOMETHING } from 'MODULE_NAME';
 
 ## Note: Visual Studio Code
 
-Most Config Files are hidden in Visual Studio Code because they are pure boilerplate. 
+Most Config Files for this project are hidden in Visual Studio Code because they are pure boilerplate. 
 
 Visibility settings are in:
 

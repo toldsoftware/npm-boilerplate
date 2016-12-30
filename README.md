@@ -4,11 +4,15 @@
 [![Build Status](https://travis-ci.org/toldsoftware/npm-boilerplate.svg?branch=master)](https://travis-ci.org/toldsoftware/npm-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/toldsoftware/npm-boilerplate/badge.svg)](https://coveralls.io/github/toldsoftware/npm-boilerplate)
 
-## Instructions
+## Setup
+
+Steps to setup a new project using this boilerplate.
+
+Note: You might want to make a copy of this file if needed
 
 - Create Empty Github Project
 - Copy this repo into directory (except .git)
-- Replace README and package.json with BOILERPLATE versions (You might want to make a copy of this file if needed.)
+- Replace README and package.json with BOILERPLATE versions
 - Find/Replace MODULE_NAME and MODULE_TITLE
 - Commit and Push Project to Github
 - Create *Coveralls* Project for repo: https://coveralls.io
@@ -30,7 +34,19 @@
     - Coveralls: Verify Coveralls Received Report
         - May have to Restart Build (Since Token was just set)
 - Publish to *NPM*
-    - npm publish --access-public
+    - npm publish --access public
 - Github: Verify Icons have updated
     - Sometimes this can take a while
 
+## Use
+
+- npm install @told/MODULE_NAME
+
+## Publish Updates
+
+- Publish to *NPM*
+    - npm version patch
+    - npm publish
+
+- Update in Other Projects
+    - npm update
