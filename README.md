@@ -23,6 +23,7 @@ Note: You might want to make a copy of this file if needed
 
 - Create Empty Github Project
 - Copy this repo into directory (except .git)
+- Rename Notes/HoursNAME.md and start tracking time
 - Replace README and package.json with BOILERPLATE versions
 - Find/Replace MODULE_NAME and MODULE_TITLE
 - Commit and Push Project to Github
