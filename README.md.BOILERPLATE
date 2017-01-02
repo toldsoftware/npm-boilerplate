@@ -8,7 +8,7 @@ MODULE_DESCRIPTION
 
 ## Usage
 
-- npm install @told/MODULE_NAME
+- npm install @told/MODULE_NAME --save
 
 - In Typescript File:
 

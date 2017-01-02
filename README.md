@@ -53,6 +53,11 @@ Note: You might want to make a copy of this file if needed
 - Github: Verify Icons have updated
     - Sometimes this can take a while or the images get cached by the browser.
 
+## OPTIONAL
+
+- Open the OPTIONAL folder and follow the directions in one of the subfolders to add it's boilerplate
+- Once done, delete the OPTIONAL folder to remove unneeded boilerplate
+
 ## Use
 
 - npm install @told/MODULE_NAME
