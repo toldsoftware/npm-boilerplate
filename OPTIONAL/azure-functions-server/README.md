@@ -4,9 +4,17 @@ TODO: move azure-functions-server to separate npm project
 
 ## Setup
 
+- copy src-server folder into project root
+- create Azure Function App https://portal.azure.com
+    - Setup Git Deploy
+        - Settings > Configure Continuous Integration > Setup > Select Git Project
+    - Setup CORS for any origin - for testing
+        - Settings > Configure CORS
+            - Remove Entries
+            - Enter *
 - Install azure-functions-server project
     npm i @told/azure-functions-server --save
-- copy src-server folder into project root
+- Run afs cli
 
 
 ## Final Project Structure
