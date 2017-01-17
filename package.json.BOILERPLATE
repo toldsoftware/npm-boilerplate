@@ -4,6 +4,7 @@
   "description": "MODULE_TITLE",
   "main": "index.ts",
   "scripts": {
+    "asf": ".\\node_modules\\.bin\\afs -w",
     "test": "karma start karma.conf.js"
   },
   "repository": {

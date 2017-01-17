@@ -13,8 +13,11 @@ TODO: move azure-functions-server to separate npm project
             - Remove Entries
             - Enter *
 - Install azure-functions-server project
-    npm i @told/azure-functions-server --save
-- Run afs cli
+    - npm i @told/azure-functions-server --save
+- Dev:
+    - tsc -w
+    - npm run asf
+    
 
 
 ## Final Project Structure

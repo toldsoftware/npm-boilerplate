@@ -24,6 +24,7 @@
   "homepage": "https://github.com/toldsoftware/npm-boilerplate#readme",
   "devDependencies": {
     "typescript": "^2.1.4",
+    "tslib": "^1.4.0",
     "karma": "^1.3.0",
     "karma-typescript": "^2.1.5",
     "jasmine-core": "^2.4.1",
